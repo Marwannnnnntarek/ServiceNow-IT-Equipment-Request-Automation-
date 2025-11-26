@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="47aff48c8361f210151e5dc6feaad3f4" label="Items" max_length="40" name="x_1851699_it_items" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Price" max_length="40" name="price" type="price"/>
+        <element display="true" label="Item" max_length="40" name="item" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="requester_for" table="x_1851699_it_requests">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Requested For</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value>javascript:gs.getUserID()</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value display_value="Me">90d1921e5f510100a9ad2572f2b477fe</dynamic_default_value>
+        <dynamic_ref_qual/>
+        <element>requester_for</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <name>x_1851699_it_requests</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-26 11:01:28</sys_created_on>
+        <sys_id>36ecb4088361f210151e5dc6feaad368</sys_id>
+        <sys_name>Requested For</sys_name>
+        <sys_package display_value="IT" source="x_1851699_it">37fbb4848361f210151e5dc6feaad3ea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT">37fbb4848361f210151e5dc6feaad3ea</sys_scope>
+        <sys_update_name>sys_dictionary_x_1851699_it_requests_requester_for</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-26 11:04:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>true</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT">37fbb4848361f210151e5dc6feaad3ea</application>
+        <file_path/>
+        <instance_id>97c89af51bee31901024eb9b2d4bcb4f</instance_id>
+        <instance_name>dev214690</instance_name>
+        <name>sys_dictionary_x_1851699_it_requests_requester_for</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="requester_for" table="x_1851699_it_requests"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Requested For</column_label><comments/><create_roles/><default_value>javascript:gs.getUserID()</default_value><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value display_value="Me">90d1921e5f510100a9ad2572f2b477fe</dynamic_default_value><dynamic_ref_qual/><element>requester_for</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>x_1851699_it_requests</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="sys_user">sys_user</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-26 11:01:28</sys_created_on><sys_id>36ecb4088361f210151e5dc6feaad368</sys_id><sys_name>Requested For</sys_name><sys_package display_value="IT" source="x_1851699_it">37fbb4848361f210151e5dc6feaad3ea</sys_package><sys_policy/><sys_scope display_value="IT">37fbb4848361f210151e5dc6feaad3ea</sys_scope><sys_update_name>sys_dictionary_x_1851699_it_requests_requester_for</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-26 11:04:22</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>true</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-1550967221</payload_hash>
+        <record_name>Requests.Requested For</record_name>
+        <reverted_from/>
+        <source>fffbb4848361f210151e5dc6feaad3ed</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-26 11:04:23</sys_created_on>
+        <sys_id>599d70888361f210151e5dc6feaad307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19abfd5fad40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-26 11:04:23</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>199d70884e61f210d6c23cadeca01406</update_guid>
+        <update_guid_history>199d70884e61f210d6c23cadeca01406:-1550967221,c48d3c483861f210c7b9ea90e62db990:1249004463,32ecb408cc61f2109a1135bcc7324eff:708182014,72ecb4085261f210bf329d5182173cf1:-65958279</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-26 11:05:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>059f04447fa2447280e49473ac803d31</sys_id>
+        <sys_metadata>36ecb4088361f210151e5dc6feaad368</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requested For</sys_name>
+        <sys_package display_value="IT" source="x_1851699_it">37fbb4848361f210151e5dc6feaad3ea</sys_package>
+        <sys_parent display_value="Requests">103cbc848361f210151e5dc6feaad34b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="IT">37fbb4848361f210151e5dc6feaad3ea</sys_scope>
+        <sys_scope_delete display_value="">1822b3128f1e4a848a633d95a9d5ea31</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1851699_it_requests_requester_for</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1851699_it_requests_requester_for">599d70888361f210151e5dc6feaad307</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-26 11:05:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

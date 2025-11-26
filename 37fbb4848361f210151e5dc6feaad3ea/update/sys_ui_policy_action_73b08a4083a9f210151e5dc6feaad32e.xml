@@ -19,7 +19,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-11-26 15:58:16</sys_updated_on>
         <table>x_1851699_it_requests</table>
-        <ui_policy display_value="s">2320460083a9f210151e5dc6feaad3f7</ui_policy>
+        <ui_policy display_value="Request Form UI Policy">2320460083a9f210151e5dc6feaad3f7</ui_policy>
         <value/>
         <value_action>ignore</value_action>
         <visible>ignore</visible>

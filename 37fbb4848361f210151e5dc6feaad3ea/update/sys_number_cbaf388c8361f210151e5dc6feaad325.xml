@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1851699_it_items">x_1851699_it_items</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>ITEMS</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-26 11:13:30</sys_created_on>
+        <sys_id>cbaf388c8361f210151e5dc6feaad325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITEMS</sys_name>
+        <sys_package display_value="IT" source="x_1851699_it">37fbb4848361f210151e5dc6feaad3ea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT">37fbb4848361f210151e5dc6feaad3ea</sys_scope>
+        <sys_update_name>sys_number_cbaf388c8361f210151e5dc6feaad325</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-26 11:13:30</sys_updated_on>
+    </sys_number>
+</record_update>
