@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>assigned_to</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-26 15:56:17</sys_created_on>
+        <sys_id>a550ca0083a9f210151e5dc6feaad325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assigned_to</sys_name>
+        <sys_package display_value="IT" source="x_1851699_it">37fbb4848361f210151e5dc6feaad3ea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT">37fbb4848361f210151e5dc6feaad3ea</sys_scope>
+        <sys_update_name>sys_ui_policy_action_a550ca0083a9f210151e5dc6feaad325</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-26 15:56:17</sys_updated_on>
+        <table>x_1851699_it_requests</table>
+        <ui_policy display_value="s">2320460083a9f210151e5dc6feaad3f7</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=a550ca0083a9f210151e5dc6feaad325"/>
+</record_update>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>quantity</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>auto-calculate total cost (quantity).</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    var item = g_form.getValue('items');
+    var qauntity = newValue || 1;
+    var ga = new GlideAjax('x_1851699_it.GetItemPrice'); 
+    ga.addParam('sysparm_name', 'getPrice');
+    ga.addParam('item', item);
+    ga.getXML(getResponse);
+
+	function getResponse(response) {
+            var answer = response.responseXML.documentElement.getAttribute("answer");
+			var total_price = answer * qauntity;
+            g_form.setValue('total_price',total_price.toString());
+        }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-26 11:31:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>93a34d8483a1f210151e5dc6feaad357</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>auto-calculate total cost (quantity).</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT" source="x_1851699_it">37fbb4848361f210151e5dc6feaad3ea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT">37fbb4848361f210151e5dc6feaad3ea</sys_scope>
+        <sys_update_name>sys_script_client_93a34d8483a1f210151e5dc6feaad357</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-26 14:11:59</sys_updated_on>
+        <table>x_1851699_it_requests</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
